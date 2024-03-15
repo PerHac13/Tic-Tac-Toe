@@ -58,8 +58,8 @@ function checkGame() {
         Gamegrid[position[0]] === Gamegrid[position[1]] &&
         Gamegrid[position[1]] === Gamegrid[position[2]]
       ) {
-        if (Gamegrid[position[0]] === "X") ans = "O";
-        else ans = "X";
+        if (Gamegrid[position[0]] === "X") ans = "X";
+        else ans = "O";
         boxes[position[0]].classList.add("win");
         boxes[position[1]].classList.add("win");
         boxes[position[2]].classList.add("win");
